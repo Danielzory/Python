@@ -58,3 +58,5 @@ print("Usando o metodo strip para retirar algo do texto", palavraComCaracter)
 print("Usando o stripe(*):", palavraComCaracter.strip('*'))
 
 print("------------------------------------")
+
+
