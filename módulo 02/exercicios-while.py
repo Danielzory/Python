@@ -55,7 +55,7 @@ print(f"Parabens, você acertou, o saldo descontado será de {desconto} Reais")
 
 print("--------------------Ex3-----------------------------")
 
-magic_number = int(input("Hora da mágica, digite números aleatórios, depois digite o zero para encerrar, vou te dizer qual maior número digitado: "))
+magic_number = int(input("Hora da mágica. Digite números aleatórios, depois digite o zero para encerrar, vou te dizer qual maior número digitado: "))
 
 bigger = 0
 
