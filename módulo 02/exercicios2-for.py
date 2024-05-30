@@ -26,14 +26,14 @@ for j in range(1, intervalo+1):
 soma = input(f"Você deseja saber a soma de todos estes números? - (s/n): ")    
 
 while True:
-    if soma == "s":
-        print(f"A soma dos quadrados é: {sum}")
+    if soma.lower == "s":
+        print(f"A soma dos quadrados de 1 até {intervalo} é: {sum}")
         break
-    elif soma == "n":
+    elif soma.lower == "n":
         print("Ok, fim do programa, obrigado") 
         break
     else:
-        print("Opção inválida, digite s para sim e n para não") 
+        print("Opção inválida, digite S para sim e N para não") 
         soma = input(f"Você deseja saber a soma de todos estes números? - (s/n): ") 
 print("--------------------------------------")           
 
