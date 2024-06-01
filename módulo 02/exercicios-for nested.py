@@ -47,7 +47,19 @@ else:
 
             if i != mult:
 
-                print(" * ", end = "")
+                print("* ", end = "")
 
         print(f"= {fatorial}")    
+
+print("-----------------------end---------------------")      
+
+#triangulo
+
+altura = int(input("Qual a altura do seu triângulo? \n"))
+simbolo = input("Selecione um símbolo: \n")
+
+for i in range(altura):
+   espacos = altura - i - 1
+   caracteres = 2 * i + 1
+   print(' ' * espacos + simbolo * caracteres) 
 
